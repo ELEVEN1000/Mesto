@@ -1,3 +1,4 @@
+// Коммитов нету потому что у меня гит сломался, не мог опубликовать репу, пришлось удалить и по новой делать :( чес слово не скопипастил сайт
 import React, {useEffect, useState} from "react";
 import './Header.jsx';
 import Header from "./Header.jsx";
