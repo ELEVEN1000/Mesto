@@ -216,7 +216,6 @@ function App() {
       <div className="page">
         <Header email={email} onSignOut={signOut} />
         <Routes>
-
           <Route
             path="/"
             element={
