@@ -1,4 +1,3 @@
-// Коммитов нету потому что у меня гит сломался, не мог опубликовать репу, пришлось удалить и по новой делать :( чес слово не скопипастил сайт
 import React, {useEffect, useState} from "react";
 import './Header.jsx';
 import Header from "./Header.jsx";
@@ -15,7 +14,7 @@ import {Routes, Route, Navigate, useNavigate} from "react-router-dom";
 import Login from "./Login.jsx";
 import ProtectedRoute from "./ProtectedRoute";
 import Register from "./Register";
-import { getContent, authorize, register } from "../utils/auth";
+import { checkToken, authorize, register } from "../utils/auth";
 import InfoTooltip from "./InfoTooltip";
 
 function App() {
@@ -91,7 +90,7 @@ function App() {
   const tokenCheck = () => {
     const jwt = localStorage.getItem("jwt");
     if (jwt) {
-      getContent(jwt)
+      checkToken(jwt)
         .then((res) => {
           setLoggedIn(true);
           setEmail(res.data.email);
@@ -187,6 +186,21 @@ function App() {
     setSelectedCard({});
     setIsOpenInfoTooltip(false);
   };
+  const isOpen = EditProfilePopup || EditAvatarPopup || AddPlacePopup || selectedCard.link;
+
+  useEffect(() => {
+    function closeByEscape(evt) {
+      if(evt.key === 'Escape') {
+        closeAllPopups();
+      }
+    }
+    if(isOpen) { // навешиваем только при открытии
+      document.addEventListener('keydown', closeByEscape);
+      return () => {
+        document.removeEventListener('keydown', closeByEscape);
+      }
+    }
+  }, [isOpen])
 
   const handleChange = (evt) => {
     const { name, value } = evt.target;
