@@ -187,22 +187,6 @@ function App() {
     setIsOpenInfoTooltip(false);
   };
 
-  const isOpen = popupProfileOpen || popupAvatarOpen || popupCardOpen || isOpenInfoTooltip || selectedCard.link;
-  //Я не понял как в PopupWithForm добавить usePopupClose и потом от сюда убрать обработчик, я пытался, но не работало. Потом попробую сделать
-  useEffect(() => {
-    function closeByEscape(evt) {
-      if(evt.key === 'Escape') {
-        closeAllPopups();
-      }
-    }
-    if(isOpen) {
-      document.addEventListener('keydown', closeByEscape);
-      return () => {
-        document.removeEventListener('keydown', closeByEscape);
-      }
-    }
-  }, [isOpen])
-
 
   const handleChange = (evt) => {
     const { name, value } = evt.target;
@@ -316,7 +300,8 @@ function App() {
 
         <ImagePopup
           card={selectedCard}
-          onClose={closeAllPopups}/>
+          onClose={closeAllPopups}
+        />
 
       </div>
     </CurrentUserContext.Provider>

@@ -27,3 +27,4 @@ const usePopupClose = (isOpen, closePopup) => {
 };
 
 export default usePopupClose;
+
