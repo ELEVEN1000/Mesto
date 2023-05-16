@@ -186,7 +186,8 @@ function App() {
     setSelectedCard({});
     setIsOpenInfoTooltip(false);
   };
-  const isOpen = EditProfilePopup || EditAvatarPopup || AddPlacePopup || selectedCard.link;
+
+  const isOpen = popupProfileOpen || popupAvatarOpen || popupCardOpen || isOpenInfoTooltip || selectedCard.link;
 
   useEffect(() => {
     function closeByEscape(evt) {
@@ -194,13 +195,14 @@ function App() {
         closeAllPopups();
       }
     }
-    if(isOpen) { // навешиваем только при открытии
+    if(isOpen) {
       document.addEventListener('keydown', closeByEscape);
       return () => {
         document.removeEventListener('keydown', closeByEscape);
       }
     }
   }, [isOpen])
+
 
   const handleChange = (evt) => {
     const { name, value } = evt.target;
