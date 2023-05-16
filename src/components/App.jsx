@@ -188,7 +188,7 @@ function App() {
   };
 
   const isOpen = popupProfileOpen || popupAvatarOpen || popupCardOpen || isOpenInfoTooltip || selectedCard.link;
-
+  //Я не понял как в PopupWithForm добавить usePopupClose и потом от сюда убрать обработчик, я пытался, но не работало. Потом попробую сделать
   useEffect(() => {
     function closeByEscape(evt) {
       if(evt.key === 'Escape') {
