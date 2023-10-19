@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-mesto-auth/static/css/main.ea7e3812.css",
-    "main.js": "/react-mesto-auth/static/js/main.d8ac6f25.js",
-    "static/media/Inter-Bold.woff": "/react-mesto-auth/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
-    "static/media/Inter-Black.woff": "/react-mesto-auth/static/media/Inter-Black.c6938660eec019fefd68.woff",
-    "static/media/Inter-Regular.woff": "/react-mesto-auth/static/media/Inter-Regular.8c206db99195777c6769.woff",
-    "static/media/Inter-Bold.woff2": "/react-mesto-auth/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
-    "static/media/Inter-Black.woff2": "/react-mesto-auth/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
-    "static/media/Inter-Regular.woff2": "/react-mesto-auth/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
-    "static/media/Logo.svg": "/react-mesto-auth/static/media/Logo.bbe2a6eafac19c3d031c272c424875ca.svg",
-    "static/media/button-like.svg": "/react-mesto-auth/static/media/button-like.1ad06e85f169668a1f36.svg",
-    "static/media/decline-auth.svg": "/react-mesto-auth/static/media/decline-auth.df8eddf661ff88f2d0efd3d570d14309.svg",
-    "static/media/Trash.svg": "/react-mesto-auth/static/media/Trash.ce3b64935accf9b8212e.svg",
-    "static/media/ok-auth.svg": "/react-mesto-auth/static/media/ok-auth.1b6082f862eac35e2514460237d96ecc.svg",
-    "index.html": "/react-mesto-auth/index.html",
-    "static/media/like_active.svg": "/react-mesto-auth/static/media/like_active.dd6a61e81552be95f4b7.svg",
-    "static/media/editProfile.svg": "/react-mesto-auth/static/media/editProfile.6c7bf05444b9793fdf6e.svg",
-    "static/media/editAvatar.svg": "/react-mesto-auth/static/media/editAvatar.ae1a976ddb506239e9f0.svg",
-    "static/media/popup-close.svg": "/react-mesto-auth/static/media/popup-close.039f1f5203f653b4bacd.svg",
-    "static/media/addPlus.svg": "/react-mesto-auth/static/media/addPlus.bed8c136e13907f5eefb.svg",
-    "main.ea7e3812.css.map": "/react-mesto-auth/static/css/main.ea7e3812.css.map",
-    "main.d8ac6f25.js.map": "/react-mesto-auth/static/js/main.d8ac6f25.js.map"
+    "main.css": "/Mesto/static/css/main.a3e3c7b1.css",
+    "main.js": "/Mesto/static/js/main.8aa04906.js",
+    "static/media/Inter-Bold.woff": "/Mesto/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
+    "static/media/Inter-Black.woff": "/Mesto/static/media/Inter-Black.c6938660eec019fefd68.woff",
+    "static/media/Inter-Regular.woff": "/Mesto/static/media/Inter-Regular.8c206db99195777c6769.woff",
+    "static/media/Inter-Bold.woff2": "/Mesto/static/media/Inter-Bold.ec64ea577b0349e055ad.woff2",
+    "static/media/Inter-Black.woff2": "/Mesto/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/Inter-Regular.woff2": "/Mesto/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
+    "static/media/Logo.svg": "/Mesto/static/media/Logo.bbe2a6eafac19c3d031c272c424875ca.svg",
+    "static/media/button-like.svg": "/Mesto/static/media/button-like.1ad06e85f169668a1f36.svg",
+    "static/media/decline-auth.svg": "/Mesto/static/media/decline-auth.df8eddf661ff88f2d0efd3d570d14309.svg",
+    "static/media/Trash.svg": "/Mesto/static/media/Trash.ce3b64935accf9b8212e.svg",
+    "static/media/ok-auth.svg": "/Mesto/static/media/ok-auth.1b6082f862eac35e2514460237d96ecc.svg",
+    "index.html": "/Mesto/index.html",
+    "static/media/like_active.svg": "/Mesto/static/media/like_active.dd6a61e81552be95f4b7.svg",
+    "static/media/editProfile.svg": "/Mesto/static/media/editProfile.6c7bf05444b9793fdf6e.svg",
+    "static/media/editAvatar.svg": "/Mesto/static/media/editAvatar.ae1a976ddb506239e9f0.svg",
+    "static/media/popup-close.svg": "/Mesto/static/media/popup-close.039f1f5203f653b4bacd.svg",
+    "static/media/addPlus.svg": "/Mesto/static/media/addPlus.bed8c136e13907f5eefb.svg",
+    "main.a3e3c7b1.css.map": "/Mesto/static/css/main.a3e3c7b1.css.map",
+    "main.8aa04906.js.map": "/Mesto/static/js/main.8aa04906.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea7e3812.css",
-    "static/js/main.d8ac6f25.js"
+    "static/css/main.a3e3c7b1.css",
+    "static/js/main.8aa04906.js"
   ]
 }
