@@ -18,6 +18,7 @@ import { checkToken, authorize, register } from "../utils/auth";
 import InfoTooltip from "./InfoTooltip";
 
 function App() {
+
   const [popupProfileOpen, setProfilePopupOpen] = useState(false);
   const [popupAvatarOpen, setAvatarPopupOpen] = useState(false);
   const [popupCardOpen, setCardPopupOpen] = useState(false);
